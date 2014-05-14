@@ -372,32 +372,6 @@ jQuery(window).load(function(){
     });
 });
 
-/* =========================================================
-***********************Flickr Feed**************************
-==========================================================*/
-jQuery(document).ready(function(){ 
-    jQuery('#flickr-feed-1').jflickrfeed({
-        limit: 12,
-        qstrings: {
-            id: '94373259@N07'
-        },
-        itemTemplate:
-        '<li class="flickr-badge-image">' +
-    '<a rel="prettyPhoto[flx-flickr]" href="{{image}}" title="{{title}}">' +
-    '<img src="{{image_s}}" alt="{{title}}" width="70px" heigth="70px" />' +
-    '</a>' +
-    '</li>'
-    }, function(data) {
-        jQuery("a[rel^='prettyPhoto']").prettyPhoto({
-            show_title: false,
-            deeplinking:false
-        }).mouseenter(function(){
-            //jQuery(this).find('img').fadeTo(500, 0.6);
-            }).mouseleave(function(){
-            //jQuery(this).find('img').fadeTo(400, 1);
-            });
-    });
-});
 
 /* =========================================================
 **************************Fix CSS***************************
@@ -614,11 +588,6 @@ jQuery(document).ready(function () {
 });
 
 /* =========================================================
-************************Mobile Menu*************************
-==========================================================*/
-
-
-/* =========================================================
 ***********************Go to top****************************
 ==========================================================*/
 jQuery(document).ready(function(){
@@ -685,24 +654,4 @@ jQuery(document).ready(function () {
          
     });
 	
-});
-
-/* =========================================================
-*********************************Twitter********************
-==========================================================*/
-jQuery(function(){
-	jQuery('#tweets').tweetable({
-		username: '', 
-		time: true,
-		rotate: false,
-		speed: 4000, 
-		limit: 3,
-		replies: false,
-		position: 'append',
-		failed: "Sorry, twitter is currently unavailable for this user.",
-		html5: true,
-		onComplete:function($ul){
-			jQuery('time').timeago();
-		}
-	});
 });

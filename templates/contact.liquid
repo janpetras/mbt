@@ -1,127 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>MBT Romania - Contact - Echipamente si utilaje de reciclare</title>
-    <meta name="description" content="MBT Romania - Echipamente si utilaje de reciclare. Prescontainere si prese hidraulice." />
-    <meta name="author" content="Ioan Petras - www.ioanpetras.com" />
-    <meta name="keywords" content="reciclare, echipamente reciclare, utilaj reciclare, prescontainer, prescontainere, mbt, mbt romania, utilaje de reciclare, echipamente de reciclare, prese hidraulice" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	
-    <link rel="stylesheet" href="css/bootstrap.css" media="all">
-    <link rel="stylesheet" href="css/font-awesome.min.css" media="all">
-    <link rel="stylesheet" href="css/flexslider.css" media="all">
-    <link rel="stylesheet" href="css/prettyPhoto.css" media="all">
-    <link rel="stylesheet" href="css/superfish.css" media="all">
-	<link rel="stylesheet" href="css/bra_social_media.css" media="all">
-	<link rel="stylesheet" href="css/component.css" media="all">
-	<link rel="stylesheet" href="css/theme-options.css" media="all">
-    <link rel="stylesheet" href="style.css" media="all" />
-    <link rel="stylesheet" href="css/bootstrap-responsive.css" media="all">
-    <link rel="stylesheet" href="css/responsive.css" media="all">
-
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-        <link rel="stylesheet" href="css/ie.css" type="text/css" media="all" />		
-    <![endif]-->
-    <!-- Google maps API -->
-  	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-    <!-- Favicon and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/ico/apple-touch-icon-57x57.png">
-	
-	<!-- Style
-	================================================== -->
-    <link rel="stylesheet" href="css/skin/orange.css" type="text/css" id="colors" />
-    <link rel="stylesheet" href="css/skin/orange.css" type="text/css" id="templates" />
-    
-    <!-- Font
-            ================================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,300italic,200italic,400italic,600italic,600,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-</head>
+{% block content %}
 <body onLoad="initialize()" class="ctud-page dark-footer">
-	
-	<header id="flx-header" class="flx-divider cbp-af-header">
-    	
-        <div class="wrapper">
-        	
-            <div class="row-fluid">
-            	
-                <div class="span12 clearfix">
-                	
-                    <div id="logo-image">
-                    
-                    	<a href="index.html"><img src="placeholders/logo.png" alt="Utilaje reciclare" /></a>
-                        
-                    </div><!--end:logo-image-->
-                    
-                     <nav id="main-nav">
-                    
-                        <ul id="main-menu" class="clearfix">
-                        
-                            <li>
-                                <a href="index.html"><i class="icon-home"></i> Acasa</a>
-                            </li>
-                            <li>
-                                <a href="#""oferta.html"><i class="icon-cogs"></i> Echipamente</a>
-                            </li>
-                            <li>
-                                <a href="servicii.html"><i class="icon-tasks"></i> Servicii</a>
-                            </li>
-                            <li>
-                                <a href="despre.html"><i class="icon-group"></i> Despre</a>
-                            </li>
-                            <li class="current-menu-item">
-                                <a href="contact.html"><i class="icon-envelope-alt"></i> Contact</a>
-                            </li>
-                        </ul><!--end:main-menu-->
-                        
-                        <div id="dl-menu" class="dl-menuwrapper">
-                            <button>Deschide Meniu</button>
-                            <ul class="dl-menu">
-                                <li>
-                                    <a href="index.html">Acasa</a>
-                                </li>
-                                <li>
-                                    <a href="oferta.html">Echipamente</a>
-                                </li>
-                                <li>
-                                    <a href="servicii.html">Servicii</a>
-                                </li>
-                                <li>
-                                    <a href="despre.html">Despre</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div><!-- /dl-menuwrapper -->
-                        
-                    </nav><!--end:main-nav-->
-                    
-                </div><!--end:span12-->
-                
-            </div><!--end:row-fluid-->
-            
-        </div><!--end:wrapper-->
-        
-    </header><!--end:flx-header-->
-    
+    {% include "header" %}
     <div id="main-content">
         
         <section class="flx-intro flx-divider">
         
-        	<div class="wrapper flx-line">
+            <div class="wrapper flx-line">
             
-            	<div class="row-fluid">
+                <div class="row-fluid">
                 
                     <div class="span12 clearfix">
                     
@@ -144,12 +30,12 @@
         
         <div class="breadcrumb flx-divider">
         
-        	<div class="wrapper flx-line">
+            <div class="wrapper flx-line">
             
-            	<div class="row-fluid">
+                <div class="row-fluid">
                 
-                	<div class="span12 clearfix">
-                    	<a  href="index.html">Acasa</a>
+                    <div class="span12 clearfix">
+                        <a  href="index.html">Acasa</a>
                         <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
                         <span>Contact</span>
                     </div><!--end:span12-->
@@ -203,22 +89,22 @@
                                     </li>
 
                                     <li style="text-align: left;" class="blue">
-                                    	<p style="text-align: center;">Informatii Generale:</p>
+                                        <p style="text-align: center;">Informatii Generale:</p>
                                         <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:lavinia.izele@mbt-romania.ro">lavinia.izele@mbt-romania.ro</a>
                                         <li style="text-align: left;" class="orange">
-                                        	<i class="icon-phone"></i><a class="contact-phone" href="callto:0040746255258">+(40) 746 255 258</a>
-                                   		</li>
+                                            <i class="icon-phone"></i><a class="contact-phone" href="callto:0040746255258">+(40) 746 255 258</a>
+                                        </li>
                                     </li>
                                     <li style="text-align: left;" class="blue">
-                                    	<p style="text-align: center;">Departament Vanzari:</p>
+                                        <p style="text-align: center;">Departament Vanzari:</p>
                                         <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:utilajereciclare@mbt-romania.ro">utilajereciclare@mbt-romania.ro</a>
                                     </li>
                                     <li style="text-align: left;" class="blue">
-                                    	<p style="text-align: center;">Manager Dezvoltare:</p>
+                                        <p style="text-align: center;">Manager Dezvoltare:</p>
                                         <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:eugen.petras@mbt-romania.ro">eugen.petras@mbt-romania.ro</a>
                                         <li style="text-align: left;" class="orange">
-                                        	<i class="icon-phone"></i><a class="contact-phone" href="callto:0040746306044">+(40) 746 306 044</a>
-                                   		</li>
+                                            <i class="icon-phone"></i><a class="contact-phone" href="callto:0040746306044">+(40) 746 306 044</a>
+                                        </li>
                                     </li>
                                     
                                 </ul><!--end:contact-info-->
@@ -237,7 +123,7 @@
                                     <form id="contact-form" class="clearfix" action="sendmail.php" method="post">
                                         <span class="c-note">Impreuna cu echipa MBT, evoluam si ne specializam in fiecare zi. Ca si companie care are ca obiect principal de munca valorificarea deseurilor, ne concentram asupra nevoilor clientilor, a performantelor lor si implicit ale noastre si incercam sa oferim solutii cat mai eficiente si plauzibile pentru un management al deseurilor cat mai corect. Contactati-ne astazi pentru a afla cum va putem ajuta.</span>
                                         <div class="contact-left">
-                                        	<p class="input-block clearfix">
+                                            <p class="input-block clearfix">
                                                 <label class="required" for="contact_name">Nume<span>*</span></label>
                                                 <input class="valid" type="text" name="name" id="contact_name" value="">
                                             </p>
@@ -294,9 +180,9 @@
     
     <footer id="page-footer">
     
-    	<div class="wrapper">
+        <div class="wrapper">
         
-        	<div class="row-fluid">
+            <div class="row-fluid">
             
                 <div class="span12 clearfix">
                 
@@ -314,10 +200,10 @@
                             </ul>
                         </div><!--end:social-bookmarks-->
                     </div><!--end:social-media-widget-->
-					
-					<p id="back-top">
-						<a href="#top"><i class="icon-chevron-up"></i></a>
-					</p><!--end:back-top-->
+                    
+                    <p id="back-top">
+                        <a href="#top"><i class="icon-chevron-up"></i></a>
+                    </p><!--end:back-top-->
                 
                 </div><!--end:span12-->
             
@@ -326,55 +212,4 @@
         </div><!--end:wrapper-->
     
     </footer><!--end:page-footer-->
-    
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/superfish.js"></script>
-    <script src="js/retina.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.nivo.slider.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/jquery.carouFredSel-5.6.4.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jflickrfeed.min.js"></script>
-    <script src="js/mediaelement-and-player.min.js"></script>
-    <script src="js/modernizr.custom.63321.js"></script>
-    <script src="js/jquery.hoverdir.js"></script>
-    <script src="js/jquery.dropdown.js"></script>	
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.quicksand.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/script.js"></script>
-	<script src="js/modernizr.custom.js"></script>
-    <script src="js/jquery.dlmenu.js"></script>
-	<script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.eislideshow.js"></script>
-	<script src="js/tweetable.jquery.js"></script>
-	<script src="js/jquery.timeago.js"></script>
-    <script src="js/custom.js"></script>
-	<script src="js/bra_social_media.js"></script>
-	<script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.min.js"></script>
-    <script src="js/styleswitch.js"></script>
-	
-	<script>
-		jQuery(function() {
-			jQuery( '#dl-menu' ).dlmenu({
-				animationClasses : { in : 'dl-animate-in-5', out : 'dl-animate-out-5' }
-			});
-		});
-	</script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48558319-1', 'mbt-romania.ro');
-  ga('send', 'pageview');
-
-</script>
-    
-</body>
-</html>
+{% endblock %}

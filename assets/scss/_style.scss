@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'helvetica_condensedbold';
-    src: url('../../fonts/helvetica-condensed-bold-webfont.eot');
-    src: url('../../fonts/helvetica-condensed-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/helvetica-condensed-bold-webfont.woff') format('woff'),
-         url('../../fonts/helvetica-condensed-bold-webfont.ttf') format('truetype'),
-         url('../../fonts/helvetica-condensed-bold-webfont.svg#helvetica_condensedbold') format('svg');
+    src: url('/fonts/helvetica-condensed-bold-webfont.eot');
+    src: url('/fonts/helvetica-condensed-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/helvetica-condensed-bold-webfont.woff') format('woff'),
+         url('/fonts/helvetica-condensed-bold-webfont.ttf') format('truetype'),
+         url('/fonts/helvetica-condensed-bold-webfont.svg#helvetica_condensedbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -5233,6 +5233,7 @@ ul.ourHolder li.item {
 
 .servicii_link {
 	background-color: #eee8f3;
+	cursor: pointer;
 }
 
 .modal-footer .btn-primary {
@@ -5247,8 +5248,22 @@ ul.ourHolder li.item {
 
 #consumabile_modal {
     width: 50rem !important;
-    margin-left: -25rem !important; 
+    margin-left: -400px !important; 
     left:  50% !important;
+}
+
+.modal-body#consumabil {
+	max-height: 31.25rem !important;
+}
+
+#inchirieri_modal {
+    width: 50rem !important;
+    margin-left: -400px !important; 
+    left:  50% !important;
+}
+
+.modal-body#inchiriere {
+	max-height: 31.25rem !important;
 }
 
 .modal-list ul {
@@ -5258,4 +5273,44 @@ ul.ourHolder li.item {
 .modal-list h5 {
 	margin-top: 0.625rem;
 	margin-bottom: 0.625rem;
+}
+
+.separator-30 {
+	height: 30px;
+}
+
+@media all and (max-width: 767px) {
+	#consumabile_modal img {
+		max-width: 30%;
+	}
+}
+
+.lastul {
+	margin-bottom: 30px;
+}
+
+#consumabile_modal, #inchirieri_modal {
+	background: #fff6ff;
+}
+
+.modal-header {
+	background-color: #ffffff;
+}
+
+@media all and (min-width: 980px) and (max-width: 1200px) {
+	#bottom-sidebar > li.bottom-contact-form {
+		width: 400px !important;
+	}
+	
+	#contact-form > span {
+		width: 550px;
+	}
+
+	#contact-form {
+		width: 545px;
+	}
+}
+
+.modal {
+	display: none;
 }

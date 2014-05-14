@@ -4,7 +4,7 @@ function initialize() {
 	var settings = {
 		zoom: 17,
 		center: latlng,
-		scrollwheel: true,
+		scrollwheel: false,
 		navigationControl: false,
 		scaleControl: false,
 		streetViewControl: true,

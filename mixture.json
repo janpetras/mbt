@@ -1,7 +1,7 @@
 {
     "debug": false,
     "lintScripts": false,
-    "preprocessorLocations": "assets/scss",
+    "preprocessorLocations": "assets/scss, assets/js",
     "preprocessorScriptOutput": "assets/js",
     "preprocessorStyleOutput": "assets/css",
     "projectName": "MBT",

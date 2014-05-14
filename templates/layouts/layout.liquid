@@ -1,32 +1,48 @@
 <!doctype html>
 <html class="no-js" lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>MBT Romania - Echipamente si utilaje de reciclare</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="MBT Romania - Echipamente si utilaje de reciclare. Prescontainere si prese hidraulice." />
-		<meta name="author" content="Ioan Petras - www.ioanpetras.com" />
-		<meta name="keywords" content="reciclare, echipamente reciclare, utilaj reciclare, prescontainer, prescontainere, mbt, mbt romania, utilaje de reciclare, echipamente de reciclare, prese hidraulice" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  		{{ "bootstrap.css" | asset_url | stylesheet_tag }}
-  		{{ "font-awesome.min.css" | asset_url | stylesheet_tag }}
-  		{{ "flexslider.css" | asset_url | stylesheet_tag }}
-  		{{ "prettyPhoto.css" | asset_url | stylesheet_tag }}
-  		{{ "mediaelementplayer.min.css" | asset_url | stylesheet_tag }}
-      {{ "pf-dropdown.css" | asset_url | stylesheet_tag }}
-  		{{ "superfish.css" | asset_url | stylesheet_tag }}
-  		{{ "bra_social_media.css" | asset_url | stylesheet_tag }}
-  		{{ "component.css" | asset_url | stylesheet_tag }}
-  		{{ "icoMoon.css" | asset_url | stylesheet_tag }}
-  		{{ "iview.css" | asset_url | stylesheet_tag }}
-  		{{ "revolution-slider.css" | asset_url | stylesheet_tag }}
-  		{{ "fullwidth.css" | asset_url | stylesheet_tag }}
-  		{{ "app.css" | asset_url | stylesheet_tag }}
-  		{{ "bootstrap-responsive.css" | asset_url | stylesheet_tag }}
-  		{{ "responsive.css" | asset_url | stylesheet_tag }}
-	</head>
-	<body>
-		{% block content %}{% endblock %}
-  		{% include "scripts" %}
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>MBT Romania - Echipamente si utilaje de reciclare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MBT Romania - Echipamente si utilaje de reciclare. Prescontainere si prese hidraulice." />
+    <meta name="author" content="Ioan Petras - www.ioanpetras.com" />
+    <meta name="keywords" content="reciclare, echipamente reciclare, utilaj reciclare, prescontainer, prescontainere, mbt, mbt romania, utilaje de reciclare, echipamente de reciclare, prese hidraulice" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    {{ "bootstrap.css" | asset_url | stylesheet_tag }}
+    {{ "font-awesome.min.css" | asset_url | stylesheet_tag }}
+    {{ "flexslider.css" | asset_url | stylesheet_tag }}
+    {{ "prettyPhoto.css" | asset_url | stylesheet_tag }}
+    {{ "mediaelementplayer.min.css" | asset_url | stylesheet_tag }}
+    {{ "pf-dropdown.css" | asset_url | stylesheet_tag }}
+    {{ "superfish.css" | asset_url | stylesheet_tag }}
+    {{ "bra_social_media.css" | asset_url | stylesheet_tag }}
+    {{ "component.css" | asset_url | stylesheet_tag }}
+    {{ "icoMoon.css" | asset_url | stylesheet_tag }}
+    {{ "iview.css" | asset_url | stylesheet_tag }}
+    {{ "revolution-slider.css" | asset_url | stylesheet_tag }}
+    {{ "fullwidth.css" | asset_url | stylesheet_tag }}
+    {{ "app.css" | asset_url | stylesheet_tag }}
+    {{ "bootstrap-responsive.css" | asset_url | stylesheet_tag }}
+    {{ "responsive.css" | asset_url | stylesheet_tag }}
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <link rel="stylesheet" href="/assets/css/ie.css" type="text/css" media="all" />       
+    <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../assets/ico/apple-touch-icon-57x57.png">
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,300italic,200italic,400italic,600italic,600,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+  {% block content %}{% endblock %}
+  {% include "scripts" %}
+  </body>
 </html>
