@@ -1,18 +1,18 @@
 {% block content %}
 <body class="dark-footer flx-home-page-4">
-    {% include "header" %}
-    <div id="main-content">
+  {% include "header" %}
+      <div id="main-content">
         <div class="fullwidthbanner-container">
             <div class="fullwidthbanner">
                 <ul>
                     <!-- THE FIRST SLIDE -->
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="images/thumbs/thumb1.html">
                                 <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                                <img src="placeholders/slider/revolution-bg-1.jpg" alt="reciclare" >
+                                {{ "revolution-bg-1.jpg" | asset_url | image_tag:'reciclare' }}
 
                                 <!-- THE CAPTIONS IN THIS SLDIE -->
-                                <div class="caption lft rev-entry-2" data-x="-70" data-y="30" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-2.png" alt="Prescontainer" /></div>
-                                <div class="caption lfb rev-entry-1" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-1.png" alt="Presa hidraulica" /></div>
+                                <div class="caption lft rev-entry-2" data-x="-70" data-y="30" data-speed="900" data-start="500" data-easing="easeOutBack">{{ "rev-entry-2.png" | asset_url | image_tag:'Prescontainer' }}</div>
+                                <div class="caption lfb rev-entry-1" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack">{{ "rev-entry-1.png" | asset_url | image_tag:'Presa hidraulica' }}</div>
                                 <div class="caption sft medium_white"  data-x="645" data-y="250" data-speed="300" data-start="1200" data-easing="easeOutExpo">Prese De Balotat</div>
                                 <div class="caption lfb big_yellow"  data-x="645" data-y="285" data-speed="300" data-start="1300" data-easing="easeOutExpo">Verticale?</div>
                                 <div class="caption lfb small_yellow"  data-x="645" data-y="330" data-speed="200" data-start="1500" data-easing="easeOutExpo">sau Automate?</div>
@@ -21,10 +21,9 @@
 
                     <!-- THE SECOND SLIDE -->
                     <li data-transition="boxfade" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="images/thumbs/thumb2.html">
-                                <img src="placeholders/slider/revolution-bg-2.jpg" alt="reciclare" >
-                                <div class="caption sfb rev-entry-3" data-x="730" data-y="130" data-speed="900" data-start="1000" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-3.png" alt="Tocator reciclare" /></div>
-                                <div class="caption lft rev-entry-4" data-x="540" data-y="20" data-speed="900" data-start="1000" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-4.png" alt="Presa hidraulica orizontala" /></div>
-                                
+                                {{ "revolution-bg-2.jpg" | asset_url | image_tag:'reciclare' }}
+                                <div class="caption sfb rev-entry-3" data-x="730" data-y="130" data-speed="900" data-start="1000" data-easing="easeOutBack">{{ "rev-entry-3.png" | asset_url | image_tag:'Tocator reciclare' }}</div>
+                                <div class="caption lft rev-entry-4" data-x="540" data-y="20" data-speed="900" data-start="1000" data-easing="easeOutBack">{{ "rev-entry-4.png" | asset_url | image_tag:'Presa hidraulica' }}</div>
                                 <div class="caption lfl very_big_white"  data-x="0" data-y="216" data-speed="300" data-start="1200" data-easing="easeOutExpo">Materiale durabile.</div>
                                 <div class="caption lfl very_big_white"  data-x="0" data-y="275" data-speed="300" data-start="1300" data-easing="easeOutExpo">Super Durabile.</div>
                                 <div class="caption lfb big_white"  data-x="0" data-y="360" data-speed="300" data-start="1500" data-easing="easeOutExpo"><a href="contacts.html">Detalii</a></div>
@@ -32,10 +31,10 @@
                     
                     <!-- THE THIRD SLIDE -->
                     <li data-transition="turnoff" data-slotamount="15" data-masterspeed="300">
-                                <img src="placeholders/slider/revolution-bg-3.jpg" alt="reciclare" >
+                                {{ "revolution-bg-3.jpg" | asset_url | image_tag:'reciclare' }}
 
-                                <div class="caption sfb rev-entry-5" data-x="700" data-y="0" data-speed="700" data-start="500" data-easing="easeOutExpo"><img src="placeholders/slider/rev-entry-5.png" alt="Prescontainer" /></div>
-                                <div data-easing="easeOutExpo" data-start="900" data-speed="600" data-x="0" data-y="100" class="caption lft tp-caption start rev-entry-6" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-6.png" alt="Presa hidraulica" /></div>
+                                <div class="caption sfb rev-entry-5" data-x="700" data-y="0" data-speed="700" data-start="500" data-easing="easeOutExpo">{{ "rev-entry-5.png" | asset_url | image_tag:'reciclare' }}</div>
+                                <div data-easing="easeOutExpo" data-start="900" data-speed="600" data-x="0" data-y="100" class="caption lft tp-caption start rev-entry-6" data-easing="easeOutBack">{{ "rev-entry-6.png" | asset_url | image_tag:'Presa hidraulica' }}</div>
                                 <div class="caption lfl stl bg-op"
                                      data-x="650"
                                      data-y="380"
@@ -46,7 +45,7 @@
                 </ul>
                 <div class="tp-bannertimer"></div>
             </div>
-        </div>	
+        </div>  
         <div class="flx-divider">
             <div class="wrapper flx-line">
                 <div class="row-fluid">
@@ -59,10 +58,10 @@
             </div><!--end:wrapper-->
         </div><!--end:flx-divider-->
         <div class="flx-divider">
-        	<div class="wrapper flx-line">
+          <div class="wrapper flx-line">
                 <div class="row-fluid">
-                	<div class="span12">
-                    	<ul class="flx-service-4 clearfix">
+                  <div class="span12">
+                      <ul class="flx-service-4 clearfix">
                             <li class="clearfix">
                                 <span ><i class="icon-time"></i></span>
                                 <div class="entry-content">
@@ -90,7 +89,7 @@
             </div><!--end:wrapper-->
         </div><!--end:flx-divider-->
         <section class="widget flx-divider">
-        	<div class="wrapper">
+          <div class="wrapper">
                 <div class="row-fluid">
                     <div class="span12">   
                         <div class="tag-line-box clearfix">
@@ -98,186 +97,186 @@
                                 <h2>MBT Romania va ofera o gama larga de utilaje.</h2>
                                 <p>Indiferent de tipul de utilaj necesar, noi putem oferii atat utilaje standard cat si personalizate!</p>
                             </div><!--end:tag-line-->
-                            <a class="icon-button clearfix" href="contact.html"><i class="icon-envelope"></i>Contact</a>
+                            <a class="icon-button clearfix" href="contact"><i class="icon-envelope"></i>Contact</a>
                         </div><!--tag-line-box-->
                     </div><!--end:span12-->
                 </div><!--row-fluid-->
             </div><!--end:wrapper-->
         </section><!--end:widget-->
         <section class="widget portfolio-widget flx-divider">
-        	<header class="flx-header flx-divider">
-        		<div class="wrapper flx-line"></div><!--end:wrapper-->
+          <header class="flx-header flx-divider">
+            <div class="wrapper flx-line"></div><!--end:wrapper-->
         </header>
-				<div class="wrapper flx-line">
-            		<div class="row-fluid">
-                    	<div class="span12">
-                        	<h2 class="widget-title">Oferta</h2>
+        <div class="wrapper flx-line">
+                <div class="row-fluid">
+                      <div class="span12">
+                          <h2 class="widget-title">Oferta</h2>
                         <div class="list-carousel responsive" >
                             <ul class="flx-slides-1">
                                 <li style="width: 200px;">
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-1.jpg" alt="Prescontainer" />
+                                      {{ "pf-1.jpg" | asset_url | image_tag:'Prescontainer' }}
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-1.html">Detalii echipament</a></li>
-                                                <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-1.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
-                                            	<li class="pf-footer">
-                                            		<h5>Prescontainer Absetz</h5>
-                                                	<span>Prescontainer standard</span>
-                                            	</li>
+                                              <li class="pf-header"><a href="echipament-1">Detalii echipament</a></li>
+                                                <li class="pf-lightbox"><a href={{ "pf-1.jpg" | asset_url }} rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
+                                              <li class="pf-footer">
+                                                <h5>Prescontainer Absetz</h5>
+                                                  <span>Prescontainer standard</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-2.jpg" alt="Prescontainer" />
+                                      {{ "pf-2.jpg" | asset_url | image_tag:'Prescontainer' }}
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-2.html">Detalii echipament</a></li>
-                                                <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-2.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
-                                            	<li class="pf-footer">
-                                            		<h5>Prescontainer Abroll</h5>
-                                                	<span>Prescontainer Jumbo</span>
-                                            	</li>
+                                              <li class="pf-header"><a href="echipament-2">Detalii echipament</a></li>
+                                                <li class="pf-lightbox"><a href={{ "pf-2.jpg" | asset_url }} rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
+                                              <li class="pf-footer">
+                                                <h5>Prescontainer Abroll</h5>
+                                                  <span>Prescontainer Jumbo</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li style="width: 200px;">
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-3.jpg" alt="Presa hidraulica" />
+                                      <img src="placeholders/portfolio-images/pf-3.jpg" alt="Presa hidraulica" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-3.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-3.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-3.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
-                                            	<li class="pf-footer">
-                                            		<h5>Prese stationare</h5>
-                                                	<span>Presa stationara 1900XL</span>
-                                            	</li>
+                                              <li class="pf-footer">
+                                                <h5>Prese stationare</h5>
+                                                  <span>Presa stationara 1900XL</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-4.jpg" alt="Presa de balotat" />
+                                      <img src="placeholders/portfolio-images/pf-4.jpg" alt="Presa de balotat" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-4.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-4.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-4.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese de balotat</h5>
-                                                	<span>Presa de putere mare PP1208</span>
-                                            	</li>
+                                                <h5>Prese de balotat</h5>
+                                                  <span>Presa de putere mare PP1208</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li style="width: 200px;">
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-5.jpg" alt="Presa de balotat" />
+                                      <img src="placeholders/portfolio-images/pf-5.jpg" alt="Presa de balotat" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-5.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-5.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-5.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese de balotat</h5>
-                                                	<span>Presa de putere medie MK1100</span>
-                                            	</li>
+                                                <h5>Prese de balotat</h5>
+                                                  <span>Presa de putere medie MK1100</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-6.jpg" alt="Presa multicamerala" />
+                                      <img src="placeholders/portfolio-images/pf-6.jpg" alt="Presa multicamerala" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-6.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-6.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-6.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese multicamerale</h5>
-                                                	<span>Presa putere mica multicamerala</span>
-                                            	</li>
+                                                <h5>Prese multicamerale</h5>
+                                                  <span>Presa putere mica multicamerala</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li style="width: 200px;">
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-7.jpg" alt="" />
+                                      <img src="placeholders/portfolio-images/pf-7.jpg" alt="" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-7.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-7.html">Detalii echipament</a></li>
                                                <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-7.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese de balotat</h5>
-                                                	<span>Presa balotat orizontala HPH 50</span>
-                                            	</li>
+                                                <h5>Prese de balotat</h5>
+                                                  <span>Presa balotat orizontala HPH 50</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-8.jpg" alt="" />
+                                      <img src="placeholders/portfolio-images/pf-8.jpg" alt="" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-8.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-8.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-8.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese de balotat</h5>
-                                                	<span>Presa de balotat automata 400 H3</span>
-                                            	</li>
+                                                <h5>Prese de balotat</h5>
+                                                  <span>Presa de balotat automata 400 H3</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li style="width: 200px;">
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-9.jpg" alt="" />
+                                      <img src="placeholders/portfolio-images/pf-9.jpg" alt="" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-9.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-9.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-9.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese de brichetat</h5>
-                                                	<span>Presa de brichetat doze BP15</span>
-                                            	</li>
+                                                <h5>Prese de brichetat</h5>
+                                                  <span>Presa de brichetat doze BP15</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-10.jpg" alt="" />
+                                      <img src="placeholders/portfolio-images/pf-10.jpg" alt="" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-10.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-10.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-10.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Statii transfer</h5>
-                                                	<span>Statie transfer deseuri 1900XXL</span>
-                                            	</li>
+                                                <h5>Statii transfer</h5>
+                                                  <span>Statie transfer deseuri 1900XXL</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li style="width: 200px;">
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-11.jpg" alt="" />
+                                      <img src="placeholders/portfolio-images/pf-11.jpg" alt="" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-11.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-11.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-11.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese de balotat</h5>
-                                                	<span>Presa de balotat 615 H4A</span>
-                                            	</li>
+                                                <h5>Prese de balotat</h5>
+                                                  <span>Presa de balotat 615 H4A</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="view view-first">
-                                    	<img src="placeholders/portfolio-images/pf-12.jpg" alt="" />
+                                      <img src="placeholders/portfolio-images/pf-12.jpg" alt="" />
                                         <div class="mask">
                                             <ul>
-                                            	<li class="pf-header"><a href="echipament-12.html">Detalii echipament</a></li>
+                                              <li class="pf-header"><a href="echipament-12.html">Detalii echipament</a></li>
                                                 <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-12.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
                                                 <li class="pf-footer">
-                                            		<h5>Prese stationare</h5>
-                                                	<span>Presa stationara 1900 XL</span>
-                                            	</li>
+                                                <h5>Prese stationare</h5>
+                                                  <span>Presa stationara 1900 XL</span>
+                                              </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -295,7 +294,7 @@
             </div><!--end:wrapper-->
         </section><!--end:portfolio-widget-->
         <section class="widget logo-client-widget flx-divider">
-        	<div class="wrapper">
+          <div class="wrapper">
                 <div class="row-fluid">
                     <div class="span12">
                         <ul class="logo-client clearfix">
@@ -310,7 +309,7 @@
             </div><!--end:wrapper-->
         </section><!--end:widget-->
         <section class="widget bottom-tag-line">
-        	<div class="wrapper">
+          <div class="wrapper">
                 <div class="row-fluid">
                     <div class="span12">  
                         <div class="tag-line-box clearfix">
@@ -328,9 +327,9 @@
     </div><!--end:main-content-->
     <div id="page-bottom" class="flx-divider">
         <header class="flx-divider">
-        	<div class="wrapper flx-line">
+          <div class="wrapper flx-line">
         </div>
-	</header>
+  </header>
         <div class="wrapper flx-line">
             <div class="row-fluid">
                 <div class="span12 clearfix">
@@ -361,25 +360,25 @@
         </div><!--end:wrapper-->
     </div><!--end:page-bottom-->
     <footer id="page-footer">
-    	<div class="wrapper">
-        	<div class="row-fluid">
-            	<div class="span12 clearfix">
-                	<div class="copyright">
-                    	<p>Copyright © 2014 <a href="http://www.mbt-romania.ro">MBT Romania</a></p>
+      <div class="wrapper">
+          <div class="row-fluid">
+              <div class="span12 clearfix">
+                  <div class="copyright">
+                      <p>Copyright © 2014 <a href="http://www.mbt-romania.ro">MBT Romania</a></p>
                         <span>Toate pozele si descrieriile precum si preturile afisate pe acest website au caracter informativ.</span>
                     </div><!--end:copyright-->
                     <div class="social-media-widget">
-                    	<div class="social-bookmarks">                    
-        					<ul>
-                            	<li class="facebook"><a href="https://www.facebook.com/pages/MBT-Utilaje-pentru-reciclare/162205790613265" target="_blank">facebook</a></li>
+                      <div class="social-bookmarks">                    
+                  <ul>
+                              <li class="facebook"><a href="https://www.facebook.com/pages/MBT-Utilaje-pentru-reciclare/162205790613265" target="_blank">facebook</a></li>
                                 <li class="twitter"><a href="https://twitter.com/MBTRomania" target="_blank">twitter</a></li>
                                 <li class="googleplus"><a href="https://plus.google.com/107743334800615732041/posts" target="_blank">googleplus</a></li>
-        					</ul>
-    					</div><!--end:social-bookmarks-->
-					</div><!--end:social-media-widget-->
-					<p id="back-top">
-						<a href="#top"><i class="icon-chevron-up"></i></a>
-					</p><!--end:back-top-->
+                  </ul>
+              </div><!--end:social-bookmarks-->
+          </div><!--end:social-media-widget-->
+          <p id="back-top">
+            <a href="#top"><i class="icon-chevron-up"></i></a>
+          </p><!--end:back-top-->
                 </div><!--end:span12-->
             </div><!--end:row-fluid-->
         </div><!--end:wrapper-->
