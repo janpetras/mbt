@@ -1,4 +1,17 @@
 {
-	"version": "5.2.2"
+  "title": "Date contact",
+  "team": [
+    {
+      "name": "Eugen Petras",
+      "phone": "neiltak"
+    },
+    {
+      "name": "Lavinia Izele",
+      "phone": "petetak"
+    },
+    {
+      "name": "Mike Kus",
+      "phone": "mikekus"
+    }
+  ]
 }
-
