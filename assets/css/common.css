@@ -11,8 +11,8 @@
 
 .cd-dropdown > span {
 	width: 100%;
-	height: 50px;
-	line-height: 50px;
+	height: 35px;
+	line-height: 35px;
 	color: #fff;
 	font-size: 18px;
 	background: #CB60D3;
@@ -33,7 +33,7 @@
 	width: 50px;
 	text-align: center;
 	font-size: 12px;
-	height: 50px;
+	height: 35px;
 	line-height: 16px;
 	text-indent:-99999px;
 }
@@ -60,7 +60,7 @@
 	width: 170px;
 	padding-left:20px;
 	background: #CB60D3;
-	line-height: 50px;
+	line-height: 35px;
 	display: block;
 	color: #fff;
 	cursor: pointer;
@@ -85,4 +85,18 @@
 /* Select fallback styling */
 .cd-select {
 	border: 1px solid #ddd;
+}
+
+li > span.pcontstat {
+	margin-left: 30px;
+}
+
+li > span.pbala {
+	margin-left: 30px;
+}
+li > span.pbali {
+	margin-left: 30px;
+}
+li > span.pbalp {
+	margin-left: 30px;
 }
