@@ -1,0 +1,102 @@
+.cd-dropdown,
+.cd-select {
+	position: relative;
+	width: 140px;
+	display: block;
+	float:right;
+	background-color:#CB60D3;
+	margin:13px 60px 0 0;
+	z-index:999;
+}
+
+.cd-dropdown > span {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	font-size: 18px;
+	background: #CB60D3;
+	display: block;
+	padding: 0 30px 0 20px;
+	position: relative;
+	cursor: pointer;
+}
+
+.cd-dropdown > span:after {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image:url(../../images/background/pf-sort-bg.png);
+	content: '\25BC';
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 50px;
+	text-align: center;
+	font-size: 12px;
+	height: 35px;
+	line-height: 16px;
+	text-indent:-99999px;
+}
+
+.cd-dropdown.cd-active > span:after {
+	content: '\25B2';
+	text-indent:-99999px;
+}
+
+.cd-dropdown ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	z-index:999;
+}
+
+.cd-dropdown ul li {
+	display: block;
+}
+
+.cd-dropdown ul li span {
+	width: 170px;
+	padding-left:20px;
+	background: #CB60D3;
+	line-height: 35px;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+}
+
+.cd-dropdown > span,
+.cd-dropdown ul li span {
+	-webkit-backface-visibility: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.cd-dropdown > span span[class^="icon-"],
+.cd-dropdown > span span[class*=" icon-"]{
+	padding: 0 30px 0 45px;
+}
+
+/* Select fallback styling */
+.cd-select {
+	border: 1px solid #ddd;
+}
+
+li > span.pcontstat {
+	margin-left: 30px;
+}
+
+li > span.pbala {
+	margin-left: 30px;
+}
+li > span.pbali {
+	margin-left: 30px;
+}
+li > span.pbalp {
+	margin-left: 30px;
+}

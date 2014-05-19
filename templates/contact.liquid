@@ -1,0 +1,215 @@
+{% block content %}
+<body onLoad="initialize()" class="ctud-page dark-footer">
+    {% include "header" %}
+    <div id="main-content">
+        
+        <section class="flx-intro flx-divider">
+        
+            <div class="wrapper flx-line">
+            
+                <div class="row-fluid">
+                
+                    <div class="span12 clearfix">
+                    
+                        <p class="flx-map-thumb"></p>
+                        
+                        <div class="flx-intro-content">
+                        
+                            <h2>Contacteaza-ne</h2>
+                            <p>Experienta de peste 25 de ani, impreuna cu profesionalismul si energia de munca a echipei noastre ne-a propulsat in topul producatorilor din acest domeniu, sporind totodata credibilitatea clientilor nostri in potentialul companiei.</p>
+                            
+                        </div><!--end:flx-intro-content-->
+                    
+                    </div><!--end:span12-->
+                
+                </div><!--end:row-fluid-->
+            
+            </div><!--end:wrapper-->
+            
+        </section><!--end:flx-intro-->
+        
+        <div class="breadcrumb flx-divider">
+        
+            <div class="wrapper flx-line">
+            
+                <div class="row-fluid">
+                
+                    <div class="span12 clearfix">
+                        <a  href="index.html">Acasa</a>
+                        <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                        <span>Contact</span>
+                    </div><!--end:span12-->
+                
+                </div><!--end:row-fluid-->
+            
+            </div><!--end:wrapper-->
+        
+        </div><!--end:breadcrumb-->
+        
+        
+        <section class="widget flx-divider">
+
+            <div class="flx-google-map">
+                <div id="map_canvas"></div>
+            </div><!--end:flx-google-map-->
+            
+        </section><!--end:widget-->
+
+
+    </div><!--end:main-content-->
+    
+    <div id="page-bottom" class="flx-divider">
+        
+        <header class="flx-divider"><div class="wrapper flx-line"></div></header>
+        
+        <div class="wrapper flx-line">
+            
+            <div class="row-fluid">
+            
+                <div class="span12 clearfix">
+                
+                    <ul class="bottom" id="bottom-sidebar">
+                    
+                        <li>
+                        
+                            <aside class="widget widget_text">
+                            
+                                <h2 class="widget-title">Contact Info</h2>
+                                
+                                <div class="textwidget">
+                                
+                                    <p>Dorim o relatie deosebita cu actualii si potentialii clienti, de aceea va stam la dispozitie 24 din 24 pentru orice fel de cerere, mesaj sau reclamatie. Contactati-ne cu incredere si vom face tot posibilul sa va raspundem cat mai repede cu putinta.</p>
+                                    
+                                </div><!--textwidget-->
+                                
+                                <ul class="contact-info">
+                                
+                                    <li style="text-align: left;" class="green">
+                                        <i class="icon-map-marker"></i><a class="contact-address" href="http://goo.gl/maps/5k7nR" target="_blank">Sighisoara, MS 54 54 00, Romania</a>
+                                    </li>
+
+                                    <li style="text-align: left;" class="blue">
+                                        <p style="text-align: center;">Informatii Generale:</p>
+                                        <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:lavinia.izele@mbt-romania.ro">lavinia.izele@mbt-romania.ro</a>
+                                        <li style="text-align: left;" class="orange">
+                                            <i class="icon-phone"></i><a class="contact-phone" href="callto:0040746255258">+(40) 746 255 258</a>
+                                        </li>
+                                    </li>
+                                    <li style="text-align: left;" class="blue">
+                                        <p style="text-align: center;">Departament Vanzari:</p>
+                                        <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:utilajereciclare@mbt-romania.ro">utilajereciclare@mbt-romania.ro</a>
+                                    </li>
+                                    <li style="text-align: left;" class="blue">
+                                        <p style="text-align: center;">Manager Dezvoltare:</p>
+                                        <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:eugen.petras@mbt-romania.ro">eugen.petras@mbt-romania.ro</a>
+                                        <li style="text-align: left;" class="orange">
+                                            <i class="icon-phone"></i><a class="contact-phone" href="callto:0040746306044">+(40) 746 306 044</a>
+                                        </li>
+                                    </li>
+                                    
+                                </ul><!--end:contact-info-->
+                            
+                            </aside><!--end:widget-->
+                        
+                        </li>
+                        
+                        <li class="bottom-contact-form">
+                        
+                            <aside class="widget">
+                            
+                                <h2 class="widget-title">Trimite-ne un mesaj</h2>
+                                
+                                <div id="contact-form-wrap">
+                                    <form id="contact-form" class="clearfix" action="sendmail.php" method="post">
+                                        <span class="c-note">Impreuna cu echipa MBT, evoluam si ne specializam in fiecare zi. Ca si companie care are ca obiect principal de munca valorificarea deseurilor, ne concentram asupra nevoilor clientilor, a performantelor lor si implicit ale noastre si incercam sa oferim solutii cat mai eficiente si plauzibile pentru un management al deseurilor cat mai corect. Contactati-ne astazi pentru a afla cum va putem ajuta.</span>
+                                        <div class="contact-left">
+                                            <p class="input-block clearfix">
+                                                <label class="required" for="contact_name">Nume<span>*</span></label>
+                                                <input class="valid" type="text" name="name" id="contact_name" value="">
+                                            </p>
+                                            <p class="input-block">
+                                                <label class="required" for="contact_email">E-mail<span>*</span></label>
+                                                <input type="email" class="valid" name="email" id="contact_email" value="">
+                                            </p>
+                                            <p class="input-block">
+                                                <label for="contact_company">Companie</label>
+                                                <input type="text" class="valid" name="companyname" id="contact_company" value="">
+                                            </p>
+                                            <p class="input-block">   
+                                                <label for="contact_url">Telefon</label>                                     
+                                                <input type="text" value="" id="contact_url" name="phone">
+                                            </p>
+                                            <p class="input-block last">
+                                                <label class="required" for="subject">Subiect<span>*</span></label>
+                                                <select class="valid" name="subject" id="subject">
+                                                    <option value="default"> </option>
+                                                    <option value="1">Cerere oferta</option>
+                                                    <option value="2">Solicitare service</option>
+                                                    <option value="3">Mesaj</option>
+                                                </select>
+                                            </p>
+                                        </div><!--end:contact-left-->
+                                        <div class="contact-right">
+                                            <p class="textarea-block">                        
+                                                <label class="required" for="contact_message">Mesaj<span>*</span></label>
+                                                <textarea rows="6" cols="80" id="contact_message" name="message"></textarea>
+                                            </p>
+                                        </div><!--end:contact-right-->
+                                        <div class="clear"></div>                            
+                                        <p class="contact-button clearfix">                    
+                                            <input type="submit" name="submit" id="submit-contact" value="Trimite">
+                                        </p>
+                                        <div class="clear"></div>                        
+                                    </form>
+                                    <div id="response" name="response"></div>
+                                </div><!--contact-form-wrap-->
+                            
+                            </aside><!--end:widget-->
+                        
+                        </li>
+                    
+                    </ul><!--end:bottom-sidebar-->
+                
+                </div><!--end:span12-->
+            
+            </div><!--end:row-fluid-->
+        
+        </div><!--end:wrapper-->
+    
+    </div><!--end:page-bottom-->
+    
+    <footer id="page-footer">
+    
+        <div class="wrapper">
+        
+            <div class="row-fluid">
+            
+                <div class="span12 clearfix">
+                
+                    <div class="copyright">
+                        <p>Copyright © 2014 <a href="http://www.mbt-romania.ro">MBT Romania</a></p>
+                        <span>Toate pozele si descrieriile precum si preturile afisate pe acest website au caracter informativ.</span>
+                    </div><!--end:copyright-->
+                    
+                    <div class="social-media-widget">
+                        <div class="social-bookmarks">                    
+                            <ul>
+                                <li class="facebook"><a href="https://www.facebook.com/pages/MBT-Utilaje-pentru-reciclare/162205790613265" target="_blank">facebook</a></li>
+                                <li class="twitter"><a href="https://twitter.com/MBTRomania" target="_blank">twitter</a></li>
+                                <li class="googleplus"><a href="https://plus.google.com/107743334800615732041/posts" target="_blank">googleplus</a></li>
+                            </ul>
+                        </div><!--end:social-bookmarks-->
+                    </div><!--end:social-media-widget-->
+                    
+                    <p id="back-top">
+                        <a href="#top"><i class="icon-chevron-up"></i></a>
+                    </p><!--end:back-top-->
+                
+                </div><!--end:span12-->
+            
+            </div><!--end:row-fluid-->
+        
+        </div><!--end:wrapper-->
+    
+    </footer><!--end:page-footer-->
+{% endblock %}
