@@ -149,10 +149,17 @@
                         <option value="-1" selected>Categorii</option>
                         <option value="1" class="all">Toate</option>
                         <option value="2" class="pcont">Prescontainere</option>
-                        <option value="3" class="pbal">Prese balotat</option>
-                        <option value="4" class="pbric">Prese brichetat</option>
-                        <option value="5" class="incarc">Incarcatoare</option>
-                        <option value="6" class="statrans">Statii transfer</option>
+                            <option value="3" class="pcontstat">Cu modul stationar</option>
+                        <option value="4" class="pbal">Prese de balotat</option>
+                            <option value="5" class="pbalp">Profesionale</option>
+                            <option value="6" class="pbali">Industriale</option>
+                            <option value="7" class="pbala">Automate</option>
+                        <option value="8" class="shred">Shredder deseuri</option>
+                        <option value="9" class="moara">Moara macinat plastic</option>
+                        <option value="10" class="statrans">Statii transfer deseuri</option>
+                        <option value="11" class="recond">Recoditionate</option>
+                        <option value="12" class="incarc">Incarcatoare mobile</option>
+                        <option value="13" class="pbric">Prese de brichetat</option>
                     </select>
                 </div><!--end:wrapper-->
             </header>
@@ -168,14 +175,14 @@
                         <ul class="pf-box ourHolder clearfix">
                             <li class="item" data-id="id-1" data-type="pcont">
                                 <div class="view view-first">
-                                    <img src="placeholders/portfolio-images/pf-1.jpg" alt="Prescontainer" />
+                                    {{ 'standard.jpg' | asset_url | image_tag:'Prescontainer standard' }}
                                     <div class="mask">
                                         <ul>
                                             <li class="pf-header"><a href="#pf-detail-box" onClick="return felixplus_portfolio_detail_click(jQuery(this), 1, true);">Detalii echipament</a></li>
-                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-1.jpg" rel="prettyPhoto[Gallery]">Mareste imagine</a></li>
+                                            <li class="pf-lightbox"><a href="{{ 'standard.jpg' | asset_url }}" rel="prettyPhoto[1]">Mareste imagine</a></li>
                                             <li class="pf-footer">
-                                                <h5>Prescontainer Absetz</h5>
-                                                <span>Prescontainer standard</span>
+                                                <h5>Standard</h5>
+                                                <span>Prescontainere model standard</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -489,4 +496,8 @@
         </div><!--end:wrapper-->
     
     </footer><!--end:page-footer-->
+    
+    <a href="{{ 'capac.jpg' | asset_url }}" rel="prettyPhoto[1]"></a>
+    <a href="{{ 'comanda.jpg' | asset_url }}" rel="prettyPhoto[1]"></a>
+
 {% endblock %}
