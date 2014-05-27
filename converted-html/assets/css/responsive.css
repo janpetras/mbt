@@ -333,8 +333,8 @@ blockquote {
 .view .mask ul li.pf-header a,
 .view .mask ul li.pf-lightbox a,
 .view .mask ul li.pf-footer a {
-	height:55px;
-	line-height:55px;
+	height:38px;
+	line-height:38px;
 	width:123px;
 }
 .pf-4col .view .mask ul li.pf-header a,
@@ -1043,8 +1043,8 @@ blockquote {
 .view .mask ul li.pf-header a,
 .view .mask ul li.pf-lightbox a,
 .view .mask ul li.pf-footer a {
-	height:38px;
-	line-height:38px;
+	height:28px;
+	line-height:28px;
 	width:83px;
 	font-size:14px;
 }
@@ -1120,7 +1120,7 @@ blockquote {
 **************************Page Bottom***********************
 ============================================================ */
 #bottom-sidebar > li {
-	width:238px;
+	/* width:238px; */
 }
 #bottom-sidebar .contact-info li {
 	margin:10px 10px 0;
@@ -1998,8 +1998,8 @@ body {
 .flx-home-page-4 .view .mask ul li.pf-header a,
 .flx-home-page-4 .view .mask ul li.pf-lightbox a,
 .flx-home-page-4 .view .mask ul li.pf-footer a {
-	height:41px;
-	line-height:41px;
+	height:44px;
+	line-height:44px;
 	width:85px !important;
 	font-size:14px;
 }
@@ -2009,10 +2009,10 @@ body {
 .main-portfolio .view .mask ul li.pf-header a,
 .main-portfolio .view .mask ul li.pf-lightbox a,
 .main-portfolio .view .mask ul li.pf-footer a {
-	height:42px;
-	line-height:42px;
+	height:31px;
+	line-height:31px;
 	width:88px;
-	font-size:14px;
+	font-size:12px;
 }
 .flx-home-page-2 .view .mask ul li,
 .main-portfolio .view .mask ul li,
@@ -3240,10 +3240,10 @@ body {
 .main-portfolio .view .mask ul li.pf-header a,
 .main-portfolio .view .mask ul li.pf-lightbox a,
 .main-portfolio .view .mask ul li.pf-footer a {
-	height:39px;
-	line-height:39px;
+	height:28px;
+	line-height:28px;
 	width:80px;
-	font-size:14px;
+	font-size:12px;
 }
 .flx-home-page-2 .view .mask ul li,
 .main-portfolio .view .mask ul li,

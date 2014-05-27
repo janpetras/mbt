@@ -493,7 +493,7 @@ function felixplus_portfolio_detail_click(obj, id, effect){
             },
             complete:function(XMLHttpRequest, textStatus){},
             success : function(data){      
-                console.log(data);
+                /* console.log(data); */
                 jQuery('.pf-detail-box .row-fluid .span12').html(data); 
                 
                 if(true == effect)
@@ -504,7 +504,7 @@ function felixplus_portfolio_detail_click(obj, id, effect){
                 obj.removeClass('inprocess');
 				
                 /***Portfolio Flex slider***/
-                jQuery('.pf-list-flex').flexslider({
+             /*   jQuery('.pf-list-flex').flexslider({
                     animation: "slide",
                     slideshow: true,
                     start: function(slider){
@@ -516,7 +516,7 @@ function felixplus_portfolio_detail_click(obj, id, effect){
                     success: function(player, node) {
                         jQuery('#' + node.id + '-mode').html('mode: ' + player.pluginType);
                     }
-                });
+                }); */
             },
             error : function(XMLHttpRequest, textStatus, errorThrown) {}				
         });                
