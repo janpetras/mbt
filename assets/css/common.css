@@ -87,9 +87,11 @@
 	border: 1px solid #ddd;
 }
 
+/*
 li > span.pcontstat {
 	margin-left: 30px;
 }
+*/
 
 li > span.pbala {
 	margin-left: 30px;
@@ -99,4 +101,9 @@ li > span.pbali {
 }
 li > span.pbalp {
 	margin-left: 30px;
+}
+
+.beneficii-list {
+	color: #02b98d;
+	margin-left: 0 !important;
 }

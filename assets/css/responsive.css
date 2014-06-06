@@ -4496,3 +4496,14 @@ blog-style-2 .post-item .entry-content .entry-title {
 }
 
 }
+
+@media all and (max-width: 768px) {
+	.beneficii-list {
+		list-style: none;
+	}
+	
+	.beneficii-list > li {
+		background-color: #f7f7f7;
+		margin: 10px 0;
+	}
+}
