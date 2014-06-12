@@ -93,7 +93,7 @@ li > span.pcontstat {
 }
 */
 
-li > span.pbalp, li > span.pbali, li > span.pbala  {
+li > span.pbalv, li > span.pbale, li > span.pbala, span.pbalan, span.pbalca {
 	margin-left: 30px;
 	background: rgba(6,198,172,1) !important;
 	background: -moz-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(203,95,211,0.98) 7%) !important;
@@ -105,7 +105,7 @@ li > span.pbalp, li > span.pbali, li > span.pbala  {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06c6ac', endColorstr='#cb5fd3', GradientType=1 ) !important;
 }
 
-li > span.pbalp:hover, li > span.pbali:hover, li > span.pbala:hover  {
+li > span.pbalv:hover, li > span.pbale:hover, li > span.pbala:hover, span.pbalan:hover, span.pbalca:hover  {
 	margin-left: 30px;
 	background: #06c5ac !important;
 }
@@ -146,7 +146,7 @@ li > span.pbal {
 }
 
 .table-photo-margin-top {
-	margin-top: 5%;
+	margin-top: 7%;
 }
 
 .table-h5 {
