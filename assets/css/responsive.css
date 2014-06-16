@@ -1043,8 +1043,8 @@ blockquote {
 .view .mask ul li.pf-header a,
 .view .mask ul li.pf-lightbox a,
 .view .mask ul li.pf-footer a {
-	height:28px;
-	line-height:28px;
+	height:26px;
+	line-height:26px;
 	width:83px;
 	font-size:14px;
 }
