@@ -4,7 +4,7 @@
 	width: 140px;
 	display: block;
 	float:right;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	margin:13px 60px 0 0;
 	z-index:999;
 }
@@ -15,7 +15,7 @@
 	line-height: 35px;
 	color: #fff;
 	font-size: 18px;
-	background: #CB60D3;
+	background: #4c004c;
 	display: block;
 	padding: 0 30px 0 20px;
 	position: relative;
@@ -59,7 +59,7 @@
 .cd-dropdown ul li span {
 	width: 170px;
 	padding-left:20px;
-	background: #CB60D3;
+	background: #4c004c;
 	line-height: 35px;
 	display: block;
 	color: #fff;
@@ -96,12 +96,12 @@ li > span.pcontstat {
 li > span.pbalv, li > span.pbale, li > span.pbala, span.pbalan, span.pbalca {
 	margin-left: 30px;
 	background: rgba(6,198,172,1) !important;
-	background: -moz-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(203,95,211,0.98) 7%) !important;
+	background: -moz-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(76,0,76,0.98) 7%) !important;
 	background: -webkit-gradient(left top, right top, color-stop(5%, rgba(6,198,172,1)), color-stop(5%, rgba(6,198,172,0.98)), color-stop(6%, rgba(6,198,172,0.98)), color-stop(7%, rgba(203,95,211,0.98))) !important;
-	background: -webkit-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(203,95,211,0.98) 7%) !important;
-	background: -o-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(203,95,211,0.98) 7%) !important;
-	background: -ms-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(203,95,211,0.98) 7%) !important;
-	background: linear-gradient(to right, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(203,95,211,0.98) 7%) !important;
+	background: -webkit-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(76,0,76,0.98) 7%) !important;
+	background: -o-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(76,0,76,0.98) 7%) !important;
+	background: -ms-linear-gradient(left, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(76,0,76,0.98) 7%) !important;
+	background: linear-gradient(to right, rgba(6,198,172,1) 5%, rgba(6,198,172,0.98) 5%, rgba(6,198,172,0.98) 6%, rgba(76,0,76,0.98) 7%) !important;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06c6ac', endColorstr='#cb5fd3', GradientType=1 ) !important;
 }
 

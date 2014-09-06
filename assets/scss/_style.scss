@@ -59,55 +59,55 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color:#CB60D3;
+	color:#4c004c;
 }
 ul {
 	list-style: disc outside none;
 }
 
 ::selection {
-	background: #CB60D3; /* Safari */
+	background: #4c004c; /* Safari */
 	color: #FFF;
 }
 ::-moz-selection {
-	background: #CB60D3; /* Firefox */
+	background: #4c004c; /* Firefox */
 	color:#FFF;
 }
 /* =========================================================
 **************************Heading***************************
 ============================================================ */
 h1 {
-	color: #CB60D3; 
+	color: #4c004c; 
 	font: 300 35px/37px 'Abel', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
 h2 {
-	color: #CB60D3;
+	color: #4c004c;
 	font: 300 30px/32px 'Abel', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
 h3 {
-	color: #CB60D3;
+	color: #4c004c;
 	font: 300 25px/27px 'Abel', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
 h4 {
-	color: #CB60D3;
+	color: #4c004c;
 	font: 300 20px/22px 'Abel', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
 h5 {
-	color: #CB60D3;
+	color: #4c004c;
 	font: 300 17px/20px 'Source Sans Pro', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
 h6 {
-	color: #CB60D3;
+	color: #4c004c;
 	font: 300 15px/18px 'Abel', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 20px;
@@ -291,7 +291,7 @@ p {
 #main-menu > li:hover a,
 #main-menu > li > a:hover,
 #main-menu > li.current-menu-item > a {
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	color:#fff;
 }
 /*-----------------Sub Menu------------------*/
@@ -302,7 +302,7 @@ p {
 	top:89px;
 	z-index:888;
 	width:190px;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	margin:0;
 }
 #main-menu li ul li {
@@ -457,7 +457,7 @@ p {
 }
 .icon-button:hover {
 	color:#fff;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 }
 .icon-button i {
 	margin-right:25px;
@@ -475,7 +475,7 @@ p {
 }
 .tag-line-box .tag-line h2 {
 	font-family: 'Source Sans Pro', sans-serif;
-	color:#CB60D3;
+	color:#4c004c;
 	font-weight:300;
 	margin-bottom:10px;	
 }
@@ -509,7 +509,7 @@ p {
 	left:210px;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	text-align:center;
 }
 .view-more:hover {
@@ -1279,7 +1279,7 @@ p {
 	top:-20px;
 	right:-5px;
 	font-size: 16px;
-	color: #CB60D3;
+	color: #4c004c;
 }
 
 /*===============Progress Bars===================*/
@@ -1575,7 +1575,7 @@ a.black {
 }
 a.orange,
 a.green:hover {
-	background-color:#CB60D3;
+	background-color:#4c004c;
 }
 a.violet {
 	background-color:#605ca8;
@@ -1766,7 +1766,7 @@ blockquote {
 }
 .team-area ul li article header a {
 	display:block;
-	color:#CB60D3;
+	color:#4c004c;
 	font-size:25px;
 	margin-bottom:5px;
 }
@@ -2041,7 +2041,7 @@ blockquote {
     position:absolute;
     left:0;
     top:-20px;
-    color:#CB60D3;
+    color:#4c004c;
 }
 
 /* =========================================================
@@ -2249,7 +2249,7 @@ ul.ourHolder li.item {
 	color:#3d3d3d;
 }
 #sidebar a:hover {
-	color:#CB60D3;
+	color:#4c004c;
 }
 .flx-sidebar-s2 #sidebar {
 	width:280px;
@@ -2296,7 +2296,7 @@ ul.ourHolder li.item {
 .post-item header .entry-author a:hover,
 .post-item header .entry-categories a:hover,
 .post-item header .entry-comment a:hover {
-	color:#CB60D3;
+	color:#4c004c;
 }
 .post-item header .entry-author i,
 .post-item header .entry-date i,
@@ -2330,7 +2330,7 @@ ul.ourHolder li.item {
 	width:50px;
 	height:43px;
 	margin-bottom:1px;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	text-align:center;
 	padding-top:7px;
 }
@@ -2467,7 +2467,7 @@ ul.ourHolder li.item {
 	margin-bottom:0;
 }
 .widget_search #searchform #searchsubmit {
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	color:#fff;
 	padding:11px 15px;
 	position:absolute;
@@ -2478,7 +2478,7 @@ ul.ourHolder li.item {
 	background-color:#06c5ac;
 }
 .widget_search #searchform #s:focus {
-	border:1px solid #CB60D3;
+	border:1px solid #4c004c;
 }
 #sidebar .widget ul li {
 	list-style:none;
@@ -2511,7 +2511,7 @@ ul.ourHolder li.item {
 	-webkit-border-radius:3px;
 }
 #sidebar .widget_categories ul li:hover span {
-	background:#CB60D3;
+	background:#4c004c;
 	color:#fff;
 	}
 #sidebar .widget_recent_comments ul li a.url {
@@ -2527,7 +2527,7 @@ ul.ourHolder li.item {
 }
 #sidebar .widget .list-container-1 ul li.active a, 
 #sidebar .widget .list-container-1 ul li:hover a {
-    background-color: #CB60D3;
+    background-color: #4c004c;
 	color:#FFF;
 }
 
@@ -2708,7 +2708,7 @@ ul.ourHolder li.item {
 	color:#fff;
 	padding:3px 10px;
 	font-size:12px;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
@@ -2853,11 +2853,11 @@ ul.ourHolder li.item {
     position:absolute;
     left:0;
     top:15px;
-    color:#CB60D3;
+    color:#4c004c;
 }
 
 #response {
-    color:#CB60D3;
+    color:#4c004c;
     font-size:14px;
 }
 
@@ -3023,7 +3023,7 @@ ul.ourHolder li.item {
 }
 .flx-dropcap.flx-color,
 .flx-dropcap.flx-cricle {
-	background: none repeat scroll 0 0 #CB60D3;
+	background: none repeat scroll 0 0 #4c004c;
 	color: #FFFFFF;
 	font-size: 30px;
 	border-radius: 3px;
@@ -3203,7 +3203,7 @@ ul.ourHolder li.item {
 }
 .service-widget ul li:hover {
 	color:#fff;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 }
 .service-widget ul li:hover i,
 .service-widget ul li:hover h2 a ,
@@ -3295,7 +3295,7 @@ ul.ourHolder li.item {
 }
 .newsletter-form .submit {
 	background-repeat:no-repeat;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	background-position:center center;
 	background-image:url(../../images/icons/mail-icon.png);
 	padding:20px 25px;
@@ -3308,7 +3308,7 @@ ul.ourHolder li.item {
 	float:right;
 }
 .newsletter-form .email:focus {
-	border:1px solid #CB60D3;
+	border:1px solid #4c004c;
 	box-shadow:none;
 }
 
@@ -3572,7 +3572,7 @@ ul.ourHolder li.item {
 }
 .flx-service-3 li span,
 .flx-service-4 li span {
-	color:#CB60D3;
+	color:#4c004c;
 	font-size:40px;
 	float:left;
 	margin-right:10px;
@@ -3588,7 +3588,7 @@ ul.ourHolder li.item {
 }
 .flx-service-3 li .entry-content .entry-title a,
 .flx-service-4 li .entry-content .entry-title a {
-	color:#CB60D3;
+	color:#4c004c;
 }
 .flx-service-3 li:hover .entry-content .entry-title a,
 .flx-service-3 li:hover span ,
@@ -3607,7 +3607,7 @@ ul.ourHolder li.item {
 }
 .flx-service-4 li span i {
 	text-align:center;
-	background:#CB60D3;
+	background:#4c004c;
 	border-radius:50%;
 	display:inline-block;
 	width:80px;
@@ -3619,8 +3619,8 @@ ul.ourHolder li.item {
 }
 .flx-service-4 li:hover span i {
 	background:#FFF;
-	color:#CB60D3;
-	border:3px solid #CB60D3;
+	color:#4c004c;
+	border:3px solid #4c004c;
 	transform:rotate(360deg);
 	-ms-transform:rotate(360deg); /* IE 9 */
 	-webkit-transform:rotate(360deg); /* Safari and Chrome */
@@ -3639,7 +3639,7 @@ ul.ourHolder li.item {
 }
 
 .bottom-tag-line {
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	margin-top:-1px;
 }
 .bottom-tag-line .tag-line {
@@ -3779,7 +3779,7 @@ ul.ourHolder li.item {
 	font-size: 30px;
 	line-height: 32px;
 	padding:20px 25px;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	color: #fff;
 	margin-bottom:5px;
 	display:inline-block;
@@ -3967,14 +3967,14 @@ ul.ourHolder li.item {
 
 #iview div.iview-directionNav a.iview-nextNav {
 	right: -40px;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	background-position:center center;
 	background-repeat:no-repeat;
 }
 
 #iview div.iview-directionNav a.iview-prevNav {
 	left: -40px;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -4072,7 +4072,7 @@ ul.ourHolder li.item {
 	display:none;
 }
 #back-top a {
-	background-color:#CB60D3;
+	background-color:#4c004c;
 	background-repeat:no-repeat;
 	background-position:center center;
     display: block;
@@ -4155,7 +4155,7 @@ ul.ourHolder li.item {
 	margin-bottom:5px;
 }
 .flx-slides-4 li .product-item footer .price-box .discount-price {
-	color:#CB60D3;
+	color:#4c004c;
 	font-size:20px;
 	display:block;
 }
@@ -4439,7 +4439,7 @@ ul.ourHolder li.item {
 	display:inline-block;
 	width:100px;
 	padding:0;
-	color:#CB60D3;
+	color:#4c004c;
 	height:auto;
 	margin-top:7px;
 	font-family: 'Source Sans Pro',sans-serif;
@@ -4990,7 +4990,7 @@ ul.ourHolder li.item {
 	background-color:#1764bb;
 }
 .woocommerce .product-name .variation dd span.orange {
-	background-color:#CB60D3;
+	background-color:#4c004c;
 }
 .woocommerce .product-name .variation dd span.cyan {
 	background-color:#1ABC9C;
@@ -5243,7 +5243,7 @@ ul.ourHolder li.item {
 }
 
 .modal-footer .btn-primary:hover {
-	background-color: #CB60D3;
+	background-color: #4c004c;
 	background-image: none;
 }
 
@@ -5333,7 +5333,7 @@ ul.ourHolder li.item {
 
 .icon-button-details:hover {
 	color:#fff;
-	background-color:#CB60D3;
+	background-color:#4c004c;
 }
 .icon-button-details i {
 	margin-right:0.3125rem;
