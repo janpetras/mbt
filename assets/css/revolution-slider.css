@@ -653,9 +653,9 @@ website:   	http://www.themepunch.com
 .tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../../assets/arrow_right2.html) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
 
 
-.tp-leftarrow.default									{	z-index:100000;cursor:pointer; position:relative;	background:url(../../images/slider/carousel-prev.png) no-repeat center center #CB60D3;	width:40px;	height:40px; top:50% !important; 
+.tp-leftarrow.default									{	z-index:100000;cursor:pointer; position:relative;	background:url(../../images/slider/carousel-prev.png) no-repeat center center #70076B;	width:40px;	height:40px; top:50% !important; 
 														}
-.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../../images/slider/carousel-next.png) no-repeat center center #CB60D3;	width:40px;	height:40px; top:50% !important;
+.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../../images/slider/carousel-next.png) no-repeat center center #70076B;	width:40px;	height:40px; top:50% !important;
 
 														}
 
@@ -663,7 +663,7 @@ website:   	http://www.themepunch.com
 
 
 .tp-leftarrow:hover,
-.tp-rightarrow:hover 									{	background-color:#000; }
+.tp-rightarrow:hover 									{	background-color:#86A20A; }
 
 
 
