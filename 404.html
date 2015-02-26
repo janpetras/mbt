@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -43,8 +43,8 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
   
-<body onLoad="initialize()" class="ctud-page dark-footer">
-    <header id="flx-header" class="flx-divider cbp-af-header">
+<body class="dark-footer flx-home-page-4">
+  <header id="flx-header" class="flx-divider cbp-af-header">
     <div class="wrapper">
       <div class="row-fluid">
         <div class="span12 clearfix">
@@ -53,7 +53,7 @@
           </div><!--end:logo-image-->
           <nav id="main-nav">
             <ul id="main-menu" class="clearfix">
-              <li >
+              <li class="current-menu-item">
                 <a href="index.html"><i class="icon-home"></i> Acasa</a>
               </li>
               <li >
@@ -65,7 +65,7 @@
               <li >
                 <a href="despre.html"><i class="icon-group"></i> Despre</a>
               </li>
-              <li class="current-menu-item">
+              <li >
                 <a href="contact.html"><i class="icon-envelope-alt"></i> Contact</a>
               </li>
             </ul><!--end:main-menu-->
@@ -95,121 +95,85 @@
       </div><!--end:row-fluid-->
     </div><!--end:wrapper-->
   </header><!--end:flx-header-->
+
     <div id="main-content">
-        <section class="flx-intro flx-divider">
-            <div class="wrapper flx-line">
-                <div class="row-fluid">
-                    <div class="span12 clearfix">
-                        <p class="flx-map-thumb"></p>
-                        <div class="flx-intro-content">
-                            <h2>Contacteaza-ne</h2>
-                            <p>Experienta de peste 25 de ani, impreuna cu profesionalismul si energia de munca a echipei noastre ne-a propulsat in topul producatorilor din acest domeniu, sporind totodata credibilitatea clientilor nostri in potentialul companiei.</p>
-                        </div><!--end:flx-intro-content-->
-                    </div><!--end:span12-->
-                </div><!--end:row-fluid-->
-            </div><!--end:wrapper-->
-        </section><!--end:flx-intro-->
-        <div class="breadcrumb flx-divider">
-            <div class="wrapper flx-line">
-                <div class="row-fluid">
-                    <div class="span12 clearfix">
-                        <a  href="index.html">Acasa</a>
-                        <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-                        <span>Contact</span>
-                    </div><!--end:span12-->
-                </div><!--end:row-fluid-->
-            </div><!--end:wrapper-->
-        </div><!--end:breadcrumb-->
+        
         <section class="widget flx-divider">
-            <div class="flx-google-map">
-                <div id="map_canvas"></div>
-            </div><!--end:flx-google-map-->
+        
+        	<div class="wrapper">
+            
+                <div class="row-fluid">
+                
+                    <div class="span4">
+                    	
+                        <div class="error-404-left">
+                        	
+                            <img src="placeholders/404.png" alt="" />
+                            
+                            <form method="get" class="search-form clearfix" action="http://localhost/bold/">                            
+                                <p class="input-search-text">
+                                    <input type="text" onBlur="if(this.value=='')this.value=this.defaultValue;" onFocus="if(this.value==this.defaultValue)this.value='';" value="" name="s" class="search-text" maxlength="255">
+                                </p>
+                                <p class="input-search-submit">
+                                    <input type="submit" value="" name="submit" class="search-submit">
+                                </p>
+                            </form>
+                            
+                        </div><!--end:error-404-left-->
+                    
+                    </div><!--end:span4-->
+                    
+                    <div class="span8">
+                    	
+                    	<div class="error-404-right">
+                            <h2>Oops ! Nu pot sa gasesc pagina asta.</h2>
+                            <p>Nu vrei sa te intorci <a href="index-2.html">Acasa</a> si sa incerci altceva? Scuze :(</p>
+                            <span>Poate niste sfaturi pentru rezultate mai bune?</span>
+                            <ul>
+                                <li class="clearfix"><i class="icon-ok-sign"></i>Verifica daca ai scris corect.</li>
+                                <li class="clearfix"><i class="icon-ok-sign"></i>Incearca alt cuvant, de exemplu... oferta in loc de echipamente.</li>
+                                <li class="clearfix"><i class="icon-ok-sign"></i>Incearca mai multe cuvinte!</li>
+                            </ul>
+                        </div><!--end:error-404-right-->
+                    
+                    </div><!--end:span8-->
+                
+                </div><!--row-fluid-->
+            
+            </div><!--end:wrapper-->
+            
         </section><!--end:widget-->
+
+
     </div><!--end:main-content-->
+
     <div id="page-bottom" class="flx-divider">
-        <header class="flx-divider"><div class="wrapper flx-line"></div></header>
+        <header class="flx-divider">
+          <div class="wrapper flx-line">
+        </div>
+  </header>
         <div class="wrapper flx-line">
             <div class="row-fluid">
                 <div class="span12 clearfix">
-                    <ul class="bottom" id="bottom-sidebar">
+                    <ul id="bottom-sidebar">
                         <li>
                             <aside class="widget widget_text">
-                                <h2 class="widget-title">Contact Info</h2>
+                                <h2 class="widget-title">Despre noi</h2>
                                 <div class="textwidget">
-                                    <p>Dorim o relatie deosebita cu actualii si potentialii clienti, de aceea va stam la dispozitie 24 din 24 pentru orice fel de cerere, mesaj sau reclamatie. Contactati-ne cu incredere si vom face tot posibilul sa va raspundem cat mai repede cu putinta.</p>
+                                    <p>Suntem o companie care are ca obiect de munca proiectarea, producerea si comercializarea de utilaje reciclare pentru colectarea si compactarea deseurilor reciclabile. MBT isi desfasoara activitatea la nivel national oferindu-va o gama larga de utilaje pentru reciclare, precum: prescontainere, prese de balotat deseuri, tocatoare deseuri, prese stationare, statii de transfer deseuri, incarcatoare mobile.</p>
+                                    <p>Prescontainerele MBT servesc la depozitarea, compactarea si transportul deseurilor, au o constructie intarita si se bucura de o capacitate de incarcare foarte mare. Cu un design estetic si ergonomic conforme cu toate normele de siguranta si igiena va putem oferi o gama larga de utilaje reciclare: prese de balotat deseuri-verticale, prese de balotat deseuri-orizontale, prese de balotat deseuri-automate, prescontainer Abroll, prescontainer Absetz, prese stationare, tocatoare plastic si alte echipamente specifice, adaptabile fiecarei cereri.</p>
                                 </div><!--textwidget-->
                                 <ul class="contact-info">
-                                    <li style="text-align: left;" class="green">
+                                    <li class="green">
                                         <i class="icon-map-marker"></i><a class="contact-address" href="http://goo.gl/maps/5k7nR" target="_blank">Sighisoara, MS 54 54 00, Romania</a>
                                     </li>
-                                    <li style="text-align: left;" class="blue">
-                                        <p style="text-align: center;">Informatii Generale:</p>
-                                        <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:lavinia.izele@mbt-romania.ro">lavinia.izele@mbt-romania.ro</a>
-                                        <li style="text-align: left;" class="orange">
-                                            <i class="icon-phone"></i><a class="contact-phone" href="callto:0040746255258">+(40) 746 255 258</a>
-                                        </li>
+                                    <li class="orange">
+                                        <i class="icon-phone"></i><a class="contact-phone" href="callto:0040746255258">+(40)746 306 044</a>
                                     </li>
-                                    <li style="text-align: left;" class="blue">
-                                        <p style="text-align: center;">Departament Vanzari:</p>
+                                    <li class="blue">
                                         <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:utilajereciclare@mbt-romania.ro">utilajereciclare@mbt-romania.ro</a>
                                     </li>
-                                    <li style="text-align: left;" class="blue">
-                                        <p style="text-align: center;">Manager Dezvoltare:</p>
-                                        <i class="icon-envelope-alt"></i><a class="contact-email" href="mailto:eugen.petras@mbt-romania.ro">eugen.petras@mbt-romania.ro</a>
-                                        <li style="text-align: left;" class="orange">
-                                            <i class="icon-phone"></i><a class="contact-phone" href="callto:0040746306044">+(40) 746 306 044</a>
-                                        </li>
-                                    </li>
                                 </ul><!--end:contact-info-->
-                            </aside><!--end:widget-->
-                        </li>
-                        <li class="bottom-contact-form">
-                            <aside class="widget">
-                                <h2 class="widget-title">Trimite-ne un mesaj</h2>
-                                <div id="contact-form-wrap">
-                                    <form id="contact-form" class="clearfix" action="sendmail.php" method="post">
-                                        <span class="c-note">Impreuna cu echipa MBT, evoluam si ne specializam in fiecare zi. Ca si companie care are ca obiect principal de munca valorificarea deseurilor, ne concentram asupra nevoilor clientilor, a performantelor lor si implicit ale noastre si incercam sa oferim solutii cat mai eficiente si plauzibile pentru un management al deseurilor cat mai corect. Contactati-ne astazi pentru a afla cum va putem ajuta.</span>
-                                        <div class="contact-left">
-                                            <p class="input-block clearfix">
-                                                <label class="required" for="contact_name">Nume<span>*</span></label>
-                                                <input class="valid" type="text" name="name" id="contact_name" value="">
-                                            </p>
-                                            <p class="input-block">
-                                                <label class="required" for="contact_email">E-mail<span>*</span></label>
-                                                <input type="email" class="valid" name="email" id="contact_email" value="">
-                                            </p>
-                                            <p class="input-block">
-                                                <label for="contact_company">Companie</label>
-                                                <input type="text" class="valid" name="companyname" id="contact_company" value="">
-                                            </p>
-                                            <p class="input-block">   
-                                                <label for="contact_url">Telefon</label>                                     
-                                                <input type="text" value="" id="contact_url" name="phone">
-                                            </p>
-                                            <p class="input-block last">
-                                                <label class="required" for="subject">Subiect<span>*</span></label>
-                                                <select class="valid" name="subject" id="subject">
-                                                    <option value="default"> </option>
-                                                    <option value="1">Cerere oferta</option>
-                                                    <option value="2">Solicitare service</option>
-                                                    <option value="3">Mesaj</option>
-                                                </select>
-                                            </p>
-                                        </div><!--end:contact-left-->
-                                        <div class="contact-right">
-                                            <p class="textarea-block">                        
-                                                <label class="required" for="contact_message">Mesaj<span>*</span></label>
-                                                <textarea rows="6" cols="80" id="contact_message" name="message"></textarea>
-                                            </p>
-                                        </div><!--end:contact-right-->
-                                        <div class="clear"></div>                            
-                                        <p class="contact-button clearfix">                    
-                                            <input type="submit" name="submit" id="submit-contact" value="Trimite">
-                                        </p>
-                                        <div class="clear"></div>                        
-                                    </form>
-                                    <div id="response" name="response"></div>
-                                </div><!--contact-form-wrap-->
                             </aside><!--end:widget-->
                         </li>
                     </ul><!--end:bottom-sidebar-->
@@ -218,25 +182,25 @@
         </div><!--end:wrapper-->
     </div><!--end:page-bottom-->
     <footer id="page-footer">
-        <div class="wrapper">
-            <div class="row-fluid">
-                <div class="span12 clearfix">
-                    <div class="copyright">
-                        <p><span>Copyright © 2015 <a href="http://www.mbt-romania.ro">MBT Romania</a></span> / <span><a href="http://www.mbt-romania.ro/despre.html">Despre</a></span> / <span><a href="http://www.mbt-romania.ro/cariere.html">Cariere</a></span> / <span><a href="http://www.mbt-romania.ro/contact.html">Contact</a></span></p>
+      <div class="wrapper">
+          <div class="row-fluid">
+              <div class="span12 clearfix">
+                  <div class="copyright">
+                      <p>Copyright © 2014 <a href="http://www.mbt-romania.ro">MBT Romania</a></p>
                         <span>Toate pozele si descrieriile precum si preturile afisate pe acest website au caracter informativ.</span>
                     </div><!--end:copyright-->
                     <div class="social-media-widget">
-                        <div class="social-bookmarks">                    
-                            <ul>
-                                <li class="facebook"><a href="https://www.facebook.com/pages/MBT-Utilaje-pentru-reciclare/162205790613265" target="_blank">facebook</a></li>
+                      <div class="social-bookmarks">                    
+                  <ul>
+                              <li class="facebook"><a href="https://www.facebook.com/pages/MBT-Utilaje-pentru-reciclare/162205790613265" target="_blank">facebook</a></li>
                                 <li class="twitter"><a href="https://twitter.com/MBTRomania" target="_blank">twitter</a></li>
                                 <li class="googleplus"><a href="https://plus.google.com/107743334800615732041/posts" target="_blank">googleplus</a></li>
-                            </ul>
-                        </div><!--end:social-bookmarks-->
-                    </div><!--end:social-media-widget-->
-                    <p id="back-top">
-                        <a href="#top"><i class="icon-chevron-up"></i></a>
-                    </p><!--end:back-top-->
+                  </ul>
+              </div><!--end:social-bookmarks-->
+          </div><!--end:social-media-widget-->
+          <p id="back-top">
+            <a href="#top"><i class="icon-chevron-up"></i></a>
+          </p><!--end:back-top-->
                 </div><!--end:span12-->
             </div><!--end:row-fluid-->
         </div><!--end:wrapper-->
